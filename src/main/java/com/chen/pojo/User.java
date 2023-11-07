@@ -3,7 +3,7 @@ package com.chen.pojo;
 import lombok.Data;
 
 
-
+// @TableName("user")  指定实体类对应的表名,如果表名与实体类名一致则可省略
 @Data
 public class User {
 
